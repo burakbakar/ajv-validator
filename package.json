@@ -1,0 +1,32 @@
+{
+    "name": "ajv-validator-burakbakar",
+    "version": "1.0.0",
+    "description": "basic ajv validator",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon"
+    },
+    "keywords": [
+        "epxress",
+        "ajv",
+        "validator",
+        "validation",
+        "burakbakar"
+    ],
+    "author": "Burak Bakar",
+    "license": "ISC",
+    "dependencies": {
+        "@types/node": "^14.14.7",
+        "ajv": "^6.12.6",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.6"
+    },
+    "devDependencies": {
+        "@types/body-parser": "^1.19.0",
+        "@types/express": "^4.17.8",
+        "ts-node": "^9.0.0",
+        "typescript": "^4.0.5"
+    }
+}
